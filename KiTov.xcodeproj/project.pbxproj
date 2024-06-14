@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115D12252C1D10A90050C861 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115D12242C1D10A90050C861 /* AppDelegate.swift */; };
+		115D12272C1D10A90050C861 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115D12262C1D10A90050C861 /* SceneDelegate.swift */; };
+		115D12292C1D10A90050C861 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115D12282C1D10A90050C861 /* ViewController.swift */; };
+		115D122C2C1D10A90050C861 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 115D122B2C1D10A90050C861 /* Base */; };
+		115D122E2C1D10AB0050C861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115D122D2C1D10AB0050C861 /* Assets.xcassets */; };
+		115D12312C1D10AB0050C861 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 115D12302C1D10AB0050C861 /* Base */; };
+		115D123C2C1D10AB0050C861 /* KiTovTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115D123B2C1D10AB0050C861 /* KiTovTests.swift */; };
+		115D12462C1D10AB0050C861 /* KiTovUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115D12452C1D10AB0050C861 /* KiTovUITests.swift */; };
+		115D12482C1D10AB0050C861 /* KiTovUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115D12472C1D10AB0050C861 /* KiTovUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		115D12382C1D10AB0050C861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115D12192C1D10A90050C861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115D12202C1D10A90050C861;
+			remoteInfo = KiTov;
+		};
+		115D12422C1D10AB0050C861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115D12192C1D10A90050C861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115D12202C1D10A90050C861;
+			remoteInfo = KiTov;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		115D12212C1D10A90050C861 /* KiTov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiTov.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		115D12242C1D10A90050C861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		115D12262C1D10A90050C861 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		115D12282C1D10A90050C861 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		115D122B2C1D10A90050C861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		115D122D2C1D10AB0050C861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		115D12302C1D10AB0050C861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		115D12322C1D10AB0050C861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115D12372C1D10AB0050C861 /* KiTovTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiTovTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		115D123B2C1D10AB0050C861 /* KiTovTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiTovTests.swift; sourceTree = "<group>"; };
+		115D12412C1D10AB0050C861 /* KiTovUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiTovUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		115D12452C1D10AB0050C861 /* KiTovUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiTovUITests.swift; sourceTree = "<group>"; };
+		115D12472C1D10AB0050C861 /* KiTovUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiTovUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115D121E2C1D10A90050C861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115D12342C1D10AB0050C861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115D123E2C1D10AB0050C861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115D12182C1D10A90050C861 = {
+			isa = PBXGroup;
+			children = (
+				115D12232C1D10A90050C861 /* KiTov */,
+				115D123A2C1D10AB0050C861 /* KiTovTests */,
+				115D12442C1D10AB0050C861 /* KiTovUITests */,
+				115D12222C1D10A90050C861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		115D12222C1D10A90050C861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115D12212C1D10A90050C861 /* KiTov.app */,
+				115D12372C1D10AB0050C861 /* KiTovTests.xctest */,
+				115D12412C1D10AB0050C861 /* KiTovUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115D12232C1D10A90050C861 /* KiTov */ = {
+			isa = PBXGroup;
+			children = (
+				115D12242C1D10A90050C861 /* AppDelegate.swift */,
+				115D12262C1D10A90050C861 /* SceneDelegate.swift */,
+				115D12282C1D10A90050C861 /* ViewController.swift */,
+				115D122A2C1D10A90050C861 /* Main.storyboard */,
+				115D122D2C1D10AB0050C861 /* Assets.xcassets */,
+				115D122F2C1D10AB0050C861 /* LaunchScreen.storyboard */,
+				115D12322C1D10AB0050C861 /* Info.plist */,
+			);
+			path = KiTov;
+			sourceTree = "<group>";
+		};
+		115D123A2C1D10AB0050C861 /* KiTovTests */ = {
+			isa = PBXGroup;
+			children = (
+				115D123B2C1D10AB0050C861 /* KiTovTests.swift */,
+			);
+			path = KiTovTests;
+			sourceTree = "<group>";
+		};
+		115D12442C1D10AB0050C861 /* KiTovUITests */ = {
+			isa = PBXGroup;
+			children = (
+				115D12452C1D10AB0050C861 /* KiTovUITests.swift */,
+				115D12472C1D10AB0050C861 /* KiTovUITestsLaunchTests.swift */,
+			);
+			path = KiTovUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115D12202C1D10A90050C861 /* KiTov */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115D124B2C1D10AB0050C861 /* Build configuration list for PBXNativeTarget "KiTov" */;
+			buildPhases = (
+				115D121D2C1D10A90050C861 /* Sources */,
+				115D121E2C1D10A90050C861 /* Frameworks */,
+				115D121F2C1D10A90050C861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiTov;
+			productName = KiTov;
+			productReference = 115D12212C1D10A90050C861 /* KiTov.app */;
+			productType = "com.apple.product-type.application";
+		};
+		115D12362C1D10AB0050C861 /* KiTovTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115D124E2C1D10AB0050C861 /* Build configuration list for PBXNativeTarget "KiTovTests" */;
+			buildPhases = (
+				115D12332C1D10AB0050C861 /* Sources */,
+				115D12342C1D10AB0050C861 /* Frameworks */,
+				115D12352C1D10AB0050C861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115D12392C1D10AB0050C861 /* PBXTargetDependency */,
+			);
+			name = KiTovTests;
+			productName = KiTovTests;
+			productReference = 115D12372C1D10AB0050C861 /* KiTovTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		115D12402C1D10AB0050C861 /* KiTovUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115D12512C1D10AB0050C861 /* Build configuration list for PBXNativeTarget "KiTovUITests" */;
+			buildPhases = (
+				115D123D2C1D10AB0050C861 /* Sources */,
+				115D123E2C1D10AB0050C861 /* Frameworks */,
+				115D123F2C1D10AB0050C861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115D12432C1D10AB0050C861 /* PBXTargetDependency */,
+			);
+			name = KiTovUITests;
+			productName = KiTovUITests;
+			productReference = 115D12412C1D10AB0050C861 /* KiTovUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115D12192C1D10A90050C861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					115D12202C1D10A90050C861 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					115D12362C1D10AB0050C861 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 115D12202C1D10A90050C861;
+					};
+					115D12402C1D10AB0050C861 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 115D12202C1D10A90050C861;
+					};
+				};
+			};
+			buildConfigurationList = 115D121C2C1D10A90050C861 /* Build configuration list for PBXProject "KiTov" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 115D12182C1D10A90050C861;
+			productRefGroup = 115D12222C1D10A90050C861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115D12202C1D10A90050C861 /* KiTov */,
+				115D12362C1D10AB0050C861 /* KiTovTests */,
+				115D12402C1D10AB0050C861 /* KiTovUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115D121F2C1D10A90050C861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115D122E2C1D10AB0050C861 /* Assets.xcassets in Resources */,
+				115D12312C1D10AB0050C861 /* Base in Resources */,
+				115D122C2C1D10A90050C861 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115D12352C1D10AB0050C861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115D123F2C1D10AB0050C861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115D121D2C1D10A90050C861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115D12292C1D10A90050C861 /* ViewController.swift in Sources */,
+				115D12252C1D10A90050C861 /* AppDelegate.swift in Sources */,
+				115D12272C1D10A90050C861 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115D12332C1D10AB0050C861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115D123C2C1D10AB0050C861 /* KiTovTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115D123D2C1D10AB0050C861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115D12482C1D10AB0050C861 /* KiTovUITestsLaunchTests.swift in Sources */,
+				115D12462C1D10AB0050C861 /* KiTovUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		115D12392C1D10AB0050C861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115D12202C1D10A90050C861 /* KiTov */;
+			targetProxy = 115D12382C1D10AB0050C861 /* PBXContainerItemProxy */;
+		};
+		115D12432C1D10AB0050C861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115D12202C1D10A90050C861 /* KiTov */;
+			targetProxy = 115D12422C1D10AB0050C861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		115D122A2C1D10A90050C861 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115D122B2C1D10A90050C861 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		115D122F2C1D10AB0050C861 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115D12302C1D10AB0050C861 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		115D12492C1D10AB0050C861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		115D124A2C1D10AB0050C861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		115D124C2C1D10AB0050C861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SST87S64S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KiTov/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matdy.KiTov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		115D124D2C1D10AB0050C861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SST87S64S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KiTov/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matdy.KiTov;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		115D124F2C1D10AB0050C861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SST87S64S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matdy.KiTovTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiTov.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KiTov";
+			};
+			name = Debug;
+		};
+		115D12502C1D10AB0050C861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SST87S64S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matdy.KiTovTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiTov.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KiTov";
+			};
+			name = Release;
+		};
+		115D12522C1D10AB0050C861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SST87S64S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matdy.KiTovUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KiTov;
+			};
+			name = Debug;
+		};
+		115D12532C1D10AB0050C861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SST87S64S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matdy.KiTovUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KiTov;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115D121C2C1D10A90050C861 /* Build configuration list for PBXProject "KiTov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115D12492C1D10AB0050C861 /* Debug */,
+				115D124A2C1D10AB0050C861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115D124B2C1D10AB0050C861 /* Build configuration list for PBXNativeTarget "KiTov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115D124C2C1D10AB0050C861 /* Debug */,
+				115D124D2C1D10AB0050C861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115D124E2C1D10AB0050C861 /* Build configuration list for PBXNativeTarget "KiTovTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115D124F2C1D10AB0050C861 /* Debug */,
+				115D12502C1D10AB0050C861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115D12512C1D10AB0050C861 /* Build configuration list for PBXNativeTarget "KiTovUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115D12522C1D10AB0050C861 /* Debug */,
+				115D12532C1D10AB0050C861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 115D12192C1D10A90050C861 /* Project object */;
+}
